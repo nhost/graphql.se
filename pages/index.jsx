@@ -8,7 +8,7 @@ export default function Home() {
           GraphQL.se Meetup Stockholm
         </div>
         <div className="text-3xl font-bold text-gray-800 text-center py-6">
-          An pretty good meetup. Don't miss it!
+          A pretty good meetup. Don't miss it!
         </div>
         <div className="w-full flex items-center justify-center py-6 uppercase font-bold text-gray-600">
           <div>21 October 2020</div>
