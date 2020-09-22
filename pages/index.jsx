@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { SpeakerCard } from "components/speaker-card";
 import { Attend } from "components/attend";
-import { useSubscriptions } from "@apollo/client";
 
 export default function Home() {
   const speakers = [
@@ -61,7 +60,7 @@ export default function Home() {
         <div className="text-center py-8">
           <Attend />
         </div>
-        <div className="w-full flex items-center justify-center py-6 uppercase font-bold text-gray-700">
+        <div className="w-full flex flex-col md:flex-row items-center justify-center py-6 uppercase font-bold text-gray-700">
           <div className="flex items-center">
             <svg
               className="w-6 h-6 mr-2 text-graphql"
@@ -79,7 +78,7 @@ export default function Home() {
             </svg>{" "}
             21 October 2020
           </div>
-          <div className="px-2">|</div>
+          <div className="hidden md:block px-2">|</div>
           <div className="flex items-center">
             <svg
               className="w-6 h-6 mr-1 text-graphql"
@@ -101,7 +100,7 @@ export default function Home() {
                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
               />
             </svg>
-            WeWork, Stockholm
+            WeWork, 12th floor, Stockholm
           </div>
         </div>
       </div>

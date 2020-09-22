@@ -49,7 +49,7 @@ export function Attend() {
       alert("failed inserting");
     }
 
-    alert(`Done! We have sent you a email with all details.`);
+    alert(`Done! See you on the event!`);
     setIsOpen(false);
   }
 
@@ -82,10 +82,11 @@ export function Attend() {
       {data && (
         <div className="pt-3">
           <div>
-            {data.event_attendees_aggregate.aggregate.count} / 30 spots left
+            {30 - data.event_attendees_aggregate.aggregate.count} / 30 spots
+            left
           </div>
           <div className="text-xs text-gray-600">
-            (live updated with GraphQL Subscriptions)
+            (Realtime updates with GraphQL Subscriptions)
           </div>
         </div>
       )}
