@@ -4,9 +4,8 @@ export default function Home() {
   const speakers = [
     {
       person: {
-        name: "Alex Johansson",
-        img:
-          "https://media-exp1.licdn.com/dms/image/C5603AQHUW4WIkkFVRA/profile-displayphoto-shrink_200_200/0?e=1606348800&v=beta&t=04xufTpxg2ZtVsiOsoqOxLW8SUJQB3fPI0lJRDfT4Go",
+        name: "Alexander Johansson",
+        img: "/images/alexander-johansson.jpg",
         title: "CTO at TradeBay",
         social: {
           twitter: "23",
@@ -27,8 +26,7 @@ export default function Home() {
     {
       person: {
         name: "Rikard Wissing",
-        img:
-          "https://media-exp1.licdn.com/dms/image/C4D03AQFceXLLJcT_ow/profile-displayphoto-shrink_200_200/0?e=1606348800&v=beta&t=FvSEiIYZ8fsIwYW9VOy3fo0QKpuuaPuJJIw3zg8v4bE",
+        img: "/images/rikard-wissing.jpg",
         title: "Developer",
         social: {
           twitter: "23",
@@ -109,7 +107,10 @@ export default function Home() {
           </h2>
           <div className="w-full text-left">
             {speakers.map((speaker) => (
-              <div className="rounded max-w-4xl mx-auto bg-gray-100 shadow-lg p-5 my-12">
+              <div
+                key={speaker.person.name}
+                className="rounded max-w-4xl mx-auto bg-gray-100 shadow-lg p-5 my-12"
+              >
                 <div className="flex items-center">
                   <img
                     src={speaker.person.img}
