@@ -10,8 +10,9 @@ export default function Home() {
         img: "/images/alexander-johansson.jpg",
         title: "CTO at TradeBay",
         social: {
-          twitter: "23",
+          twitter: "alexdotjs",
           linkedin: "johanssonalexander",
+          github: "KATT",
         },
       },
       company: {
