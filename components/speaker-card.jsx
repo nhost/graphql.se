@@ -26,7 +26,7 @@ export function SpeakerCard({ speaker }) {
               <a
                 className="px-2"
                 style={{ color: "#181717" }}
-                href={speaker.person.social.github}
+                href={`https://github.com/${speaker.person.social.github}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -36,7 +36,7 @@ export function SpeakerCard({ speaker }) {
             {speaker.person.social.twitter && (
               <a
                 className="px-2"
-                href={speaker.person.social.twitter}
+                href={`https://twitter.com/${speaker.person.social.twitter}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -46,7 +46,7 @@ export function SpeakerCard({ speaker }) {
             {speaker.person.social.linkedin && (
               <a
                 className="mx-2"
-                href={speaker.person.social.linkedin}
+                href={`https://linkedin.com/in/${speaker.person.social.linkedin}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
