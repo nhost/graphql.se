@@ -23,7 +23,7 @@ export default function Home() {
       talk: {
         name: "E2E Type Safety with GraphQL",
         description:
-          "Type safety in the database (PostgreSQL), in your API (GraphQL) and in the frontend (TypeScript). You have never felt safer!",
+          "Type safety in the database (PostgreSQL), in your API (GraphQL) and in the frontend (TypeScript). In uncertain times like this, you would atleast want to have type safety!",
         length: "12 min",
       },
     },
@@ -55,12 +55,16 @@ export default function Home() {
   return (
     <div className="h-screen flex flex-col">
       <div className="container mx-auto">
-        <h1 className="text-6xl font-bold text-center leading-none text-graphql py-10">
+        <h1 className="text-6xl font-bold text-center leading-none text-graphql pt-24 pb-16">
           GraphQL.se Meetup Stockholm
         </h1>
         <div className="text-3xl font-bold text-gray-800 text-center py-6">
-          A small <span className="text-green-600">COViD-19</span> safe meetup
-          about <span className="text-graphql">GraphQL</span>
+          A <span className="text-graphql">GraphQL</span> meetup in{" "}
+          <span className="text-blue-700">Sto</span>
+          <span className="text-yellow-600">ck</span>
+          <span className="text-blue-700">ho</span>
+          <span className="text-yellow-600">lm</span> with{" "}
+          <span className="text-green-600">COViD-19 precautions</span>.
         </div>
         <div className="text-center py-8">
           <Attend />
