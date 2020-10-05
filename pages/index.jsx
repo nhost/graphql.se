@@ -70,6 +70,7 @@ export default function Home() {
         }}
         twitter={{
           handle: "@nhostio",
+          site: "@nhostio",
           cardType: "summary_large_image",
         }}
       />
