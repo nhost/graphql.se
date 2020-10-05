@@ -34,8 +34,9 @@ export default function Home() {
         img: "/images/rikard-wissing.jpg",
         title: "Developer",
         social: {
-          twitter: "23",
-          linkedin: "johanssonalexander",
+          twitter: "rikardwissing",
+          github: "rikardwissing",
+          linkedin: "rikard-wissing-7b1a98127",
         },
       },
       company: {
@@ -43,9 +44,9 @@ export default function Home() {
         url: "https://teamtailor.se",
       },
       talk: {
-        name: "GraphQL in React Native",
+        name: "How GraphQL made us deliver an app in 3 weeks",
         description:
-          "How we moved faster with GraphQL building apps in React Native.",
+          "How we moved faster with GraphQL building an enterprise app in React Native.",
         length: "12 min",
       },
     },
@@ -58,7 +59,8 @@ export default function Home() {
           GraphQL.se Meetup Stockholm
         </h1>
         <div className="text-3xl font-bold text-gray-800 text-center py-6">
-          2020 just got better!
+          A small <span className="text-green-600">COViD-19</span> safe meetup
+          about <span className="text-graphql">GraphQL</span>
         </div>
         <div className="text-center py-8">
           <Attend />
@@ -146,6 +148,28 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="bg-blue-100 py-12">
+        <div className="container mx-auto">
+          <div className="text-center">
+            <h2 className="inline text-4xl font-normal text-gray-800 border-b-4 border-graphql uppercase">
+              COViD-19 info
+            </h2>
+          </div>
+          <div className="max-w-xl mx-auto">
+            <div className="py-6 text-xl">
+              <ul className="list-disc">
+                <li>Max 30 people attending.</li>
+                <li>No handshakes.</li>
+                <li>Keep 1 meter social distance.</li>
+                <li>Wash hands often.</li>
+                <li>
+                  Do NOT attend if you feel symptoms (even mildly symptoms)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="bg-green-100 py-12">
         <div className="container mx-auto text-center">
           <h2 className="inline text-4xl font-normal text-gray-800 border-b-4 border-graphql uppercase">
@@ -156,7 +180,7 @@ export default function Home() {
               <a
                 href="https://nhost.io"
                 target="_blank"
-                rel="noopener noreferrerjjj"
+                rel="noopener noreferrer"
               >
                 <img
                   className="h-12"
@@ -168,7 +192,7 @@ export default function Home() {
               <a
                 href="https://antler.co"
                 target="_blank"
-                rel="noopener noreferrerjjj"
+                rel="noopener noreferrer"
               >
                 <svg className="h-12" viewBox="0 0 226 54" role="img">
                   <title>Antler</title>
