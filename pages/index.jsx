@@ -57,6 +57,17 @@ export default function Home() {
       <NextSeo
         title="GraphQL.se Meetup in Stockholm"
         description="Register to attend now! Next meetup: 21 October 2020 between 18:00-20:00 at WeWork Stockholm."
+        openGraph={{
+          url: "https://graphql.se",
+          title: "GraphQL.se Meetup in Stockholm",
+          description:
+            "Register to attend now for our next meetup: 21 October 2020",
+          images: [
+            {
+              url: "https://graphql.se/images/og-image-01.png",
+            },
+          ],
+        }}
       />
       <div className="h-screen flex flex-col">
         <div className="container mx-auto">
