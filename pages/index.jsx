@@ -41,7 +41,7 @@ export default function Home() {
       },
       company: {
         name: "Teamtailor",
-        url: "https://teamtailor.se",
+        url: "https://teamtailor.com",
       },
       talk: {
         name: "How GraphQL made us deliver an app in 3 weeks",
