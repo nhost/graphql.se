@@ -68,6 +68,10 @@ export default function Home() {
             },
           ],
         }}
+        twitter={{
+          handle: "@nhostio",
+          cardType: "summary_large_image",
+        }}
       />
       <div className="h-screen flex flex-col">
         <div className="container mx-auto">
